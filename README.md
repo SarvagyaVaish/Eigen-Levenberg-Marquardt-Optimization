@@ -16,8 +16,8 @@ Output:
 ```
 LM optimization status: 2
 Optimization results
-    a: -1.97569
-    b: 49.2969
-    c: 10.0756
+    a: -1.99839
+    b: 50.0387
+    c: 7.83367
 ```
 
