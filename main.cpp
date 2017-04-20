@@ -60,7 +60,7 @@ struct LMFunctor
 			operator()(xMinus, fvecMinus);
 
 			Eigen::VectorXf fvecDiff(values());
-			fvecDiff = (fvecPlus - fvecMinus) / 2.0f;
+			fvecDiff = (fvecPlus - fvecMinus) / (2.0f * epsilon);
 
 			fjac.block(0, i, values(), 1) = fvecDiff;
 		}
